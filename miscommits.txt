@@ -1,0 +1,23 @@
+commit 4403890d6f24afacf9b16bf4e966f4bb71e79f98
+Author: CCDM06 <ccdm06@CCDM06.local>
+Date:   Mon Feb 18 13:43:12 2019 -0700
+
+    Titulo y body cambiados
+
+commit 333d61d4b85275d35a9242914c40f26ba299a673
+Author: CCDM06 <ccdm06@CCDM06.local>
+Date:   Mon Feb 18 13:37:58 2019 -0700
+
+    Commit Inicial
+
+commit a7a6b8764e35a1ccf2cdc01812c3ab802aff64c0
+Author: CCDM06 <ccdm06@CCDM06.local>
+Date:   Mon Feb 18 11:50:12 2019 -0700
+
+    CAMBIO DE TITULO Y TEXTO DEL BODY
+
+commit c0346e088fc0e3f039818b08300fbaddb14fcf59
+Author: CCDM06 <ccdm06@CCDM06.local>
+Date:   Mon Feb 18 11:44:36 2019 -0700
+
+    INICIO DE PROYECTO - COMMIT INICIAL
