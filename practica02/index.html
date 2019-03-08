@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Pr&aacute;ctica 02 HTML</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
     <script src="main.js"></script>
 </head>
 <body>
     <header>
         <img src="img/banner.png" alt="">
-        <img src="img/granthams.png" alt="">
-        <img src="img/paint.png" alt="">
+        <img src="img/granthams.png" alt="" id="granthams">
+        <img src="img/paint.png" alt="" id="paint">
         <input type="search" placeholder="Buscar">
         <nav>
             <ul>
@@ -24,13 +24,15 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <article>
+    <section id="primerSeccion">
+        <article id="secc01art01">
             <img src="img/slide.jpg" alt="">
         </article>
 
-        <article>
-            We can offer...
+        <article id="secc01art02">
+            <span class="colorrosa letragrande nito">
+                We can offer...
+            </span> 
             <ul>
                 <li>Highly Competitive Prices</li>
                 <li>Variable Data</li>
@@ -42,25 +44,33 @@
                 <li>Gran servicio al cliente</li>
             </ul>
         </article>
-        <img src="img/bg_offer.png" alt="">
+        <img src="img/bg_offer.png" alt="" id="bgoffer">
     </section>
-    <section>
+    <section id="segundaSeccion">
         <article>
-            01 800 999 8080
+            <span class="colorrosa letramediana nito">
+                01 800 999 8080
+            </span>
         </article>
     </section>
-    <section>
+    <section id="terceraSeccion">
         <article>
             <img src="img/cerdito.png" alt="">
-            Save this Spring
+            <span class="colorrosa nito">
+                Save this Spring
+            </span>
             <br>
             Fabolous discountas on canva's  and roll up's as well as many offers.
             <p></p>
-            Find out more...
+            <span class="colorrosa nito">
+                Find out more...
+            </span>
         </article>
         <article>
             <img src="img/hoja.png" alt="">
-            ECO Friedly
+            <span class="colorverde nito">
+                ECO Friedly
+            </span>
             <br>
             ECO Friendly Materials used in our poduction process. <br>
             Recycled papers and paper from Sustainable Forest (Including FSC papers) are avialable our range of Printing Services. 
@@ -68,14 +78,22 @@
         </article>
         <article>
             <img src="img/new.png" alt="">
-            Upload your file <br>
+            <span class="colorazul nito">
+               Upload your file 
+            </span>
+             <br>
             Making it easy to order your Printing today. Our upload facility enables you to send your files directly
             to us. Use the notes section to inform us your order, then sit back and wait for a member of our team to
             contact you nwn. <p></p> 
-            Upload Your File Now...
+            <span class="colorazul">
+                Upload Your File Now...
+            </span>
         </article>
         <article>
-            Stay in touch <br>
+            <span class="colorrosa letramediana">
+                Stay in touch
+            </span>
+             <br>
             Join our mailing list today <br>
             <input type="email" name="" id="" placeholder="Email goes here">
             <input type="button" value="send">  
