@@ -28,6 +28,15 @@ header nav ul li {
     /* text-decoration: underline;*/
 }
 
+body footer{
+    background: #8BC500;
+    color: white;
+}
+
+body footer article {
+    display: inline-block;
+}
+
 #bgoffer{
     position: relative;
     top: -406px;
@@ -46,6 +55,7 @@ header nav ul li {
     height: 318px;
     margin-top: 60px;
 }
+
 
 #primerSeccion article{
     display: inline-block;
@@ -77,8 +87,41 @@ header nav ul li {
     text-align: right;
 }
 
+#terceraSeccion article{
+    width: 23%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#terceraSeccion article img{
+    vertical-align: middle;
+}
+
+#secc03art04{
+    /*margin-top: 40px;*/
+    padding-top: 40px;
+
+}
+
+#terceraSeccion article input{
+    border-radius: 5px;
+}
+
+#terceraSeccion article input[type="button"]{
+    background: #8BC500;
+    color: white;
+}
+
 .colorrosa{
     color: #FF0099;
+}
+
+.colorazul{
+    color: rgb(128, 198, 248);
+}
+
+.colorverde{
+    color: #8BC500;
 }
 
 .letragrande{
