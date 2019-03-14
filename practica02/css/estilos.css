@@ -29,8 +29,11 @@ header nav ul li {
 }
 
 body footer{
-    background: #8BC500;
+    margin-top: 50px;
+    padding-top: 40px;
+    background: #4565b2;
     color: white;
+    border-top: 3px solid #9ba2b2;
 }
 
 body footer article {
@@ -45,6 +48,24 @@ body footer article {
 #granthams{
     margin-left: 25px;
     margin-top: 25px;
+}
+
+#monitos{
+    position: relative;
+    top: -200px;
+    left: 990px;
+}
+
+#facebook{
+    position: relative;
+    top: -180px;
+    left: 800px;
+}
+
+#twitter{
+    position: relative;
+    top: -180px;
+    left: 805px;
 }
 
 #paint{
@@ -112,6 +133,33 @@ body footer article {
     color: white;
 }
 
+#foo01art01{
+    width: 45%;
+    margin-left: 30px;
+}
+
+#foo01art02{
+    width: 35%;
+}
+
+#foo01art02{
+    width: 35%;
+    text-align: center;
+    margin-left: -50px;
+}
+
+#foo01art03{
+    width: 15%;
+    padding-left: 35px;
+}
+#foo01art03 input{
+    border-radius: 5px;
+    border-color: white;
+    background: #4565b2;
+    color: white;
+    margin-left: 30px;
+}
+
 .colorrosa{
     color: #FF0099;
 }
@@ -132,7 +180,13 @@ body footer article {
     font-size: 2em;
 }
 
+.letrachica{
+    font-size: 0.8em;
+}
+
 .nito{
     font-weight: bold;
 }
+
+
 
