@@ -1,0 +1,166 @@
+body{
+    font-size: 16px;
+    margin: 0px auto;
+    min-width: 1024px;
+    max-width: 1024px;
+}
+
+header{
+    padding-bottom: 30px;
+    border-bottom: 1px dashed gray;
+}
+
+header article{
+    display: inline-block;
+    vertical-align: top;
+}
+
+header article img{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+header article nav ul li {
+    padding-top: 50px;
+    display: inline-block;
+    margin-left: -20px;
+    margin-right: 35px;
+    padding-bottom: 2px;
+}
+
+footer article{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+hr{
+    color: #c7c7c7;
+}
+
+#logorojo{
+    position: relative;
+    float: inline-end;
+    right: -30px;
+}
+
+#bandera{
+    position: relative;
+    float: inline-end;
+    right: -15px;
+}
+
+#mundo{
+    position: relative;
+    float: inline-end;
+}
+
+#buy{
+    position: relative;
+    top: 120px;
+    right: 75px;
+}
+
+#shop{
+    position: relative;
+    top: -40px;
+}
+
+#video1{
+    margin-top: 50px;
+    height: 48%;
+    width: 48%;
+    margin-right: 10px;
+}
+
+#video2{
+    margin-top: 50px;
+    height: 48%;
+    width: 48%;
+}
+
+#garantia{
+    position: relative;
+    top: -140px;
+}
+
+#headerart01{
+    width: 64%
+}
+
+#headerart02{
+    width: 34%;
+}
+
+#primeraseccion article{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#secc01art01{
+    width: 55%;
+    padding-left: 10px;
+}
+
+#secc01art01art01{
+    padding-bottom: 40px;
+    border-bottom: 1px dashed gray;
+}
+
+#secc01art01art02{
+    padding-top: 50px;
+}
+
+#secc01art02{
+    width: 41%;
+}
+
+#segundaseccion{
+    margin-top: -100px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
+
+#footerart01{
+    width: 17%;
+    margin-right: 10px;
+}
+
+#footerart02{
+    width: 17%;
+    margin-right: 10px;
+}
+
+#footerart03{
+    width: 17%;
+    margin-right: 10px;
+}
+
+#footerart04{
+    width: 17%;
+    margin-right: 10px;
+}
+
+#footerart05{
+    width: 21%;
+}
+
+.letragigante{
+    font-size: 4em;
+}
+
+.colorverde{
+   color:  #73f33d;
+}
+
+.colorgrisfuerte{
+    color: #808080;
+}
+
+.lineagris{
+    color: #c7c7c7;
+}
+
+.nito{
+    font-weight: bold;
+}
