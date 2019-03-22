@@ -1,0 +1,175 @@
+@font-face{
+    font-family: Archivo Black;
+    src: url("Archivo_Black/ArchivoBlack-Regular.ttf");
+}
+
+@font-face{
+    font-family: Lato;
+    src: url("Lato/Lato-Black.ttf");
+}
+
+@font-face{
+    font-family: Libre Baskerville;
+    src: url("Libre_Baskerville/LibreBaskerville-Italic.ttf");
+}
+
+@font-face{
+    font-family: Open Sans;
+    src: url("Open_Sans/OpenSans-Regular.ttf");
+}
+
+/*
+font-family: 'Libre Baskerville', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Archivo Black', sans-serif;
+*/
+
+body{
+    font-size: 16px;
+    margin: 0px auto;
+    min-width: 2000px;
+    max-width: 2000px;
+}
+
+input{
+    text-align: center;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    background: transparent;
+}
+
+#primeraseccion article{ 
+    display: inline-block;
+    vertical-align: top;
+}
+
+#secc01art01{
+    background: #f2efef;  
+    width: 58%;  
+    padding-bottom: 50px;
+}
+
+#secc01art01art01{
+    width: 43%;
+}
+
+#secc01art01art02{
+    width: 55%;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#persona{
+    position: relative;
+    float: left;
+    width: 70%;
+    height: 70%;
+    left: 150px;
+    top: 50px;
+}
+
+#secc01art02{
+    background: #606060;
+    width: 38%;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 310px;
+}
+
+
+#segundaseccion article{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#twitter{
+    position: relative;
+    vertical-align: top;
+}
+
+#secc02art01{
+    background: #1faef3;
+    width: 43%;
+    text-align: center;
+    padding-bottom: 70px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#secc02art01art01{
+    width: 24%;
+    padding-top: 100px;
+}
+
+#secc02art01art02{
+    width: 74%;
+    padding-top: 100px;
+    padding-right: 10px;
+}
+
+#secc02art02{
+    background: #ceddce;
+    width: 19%;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 85px;
+}
+
+#secc02art03{
+    background: #787777;
+    width: 33%;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 85px;
+    padding-right: 16px;
+}
+
+.colorblanco{
+    color: white;
+}
+
+.letragrande{
+    font-size: 4em;
+}
+
+.letramediana{
+    font-size: 2em;
+}
+
+.letranormal{
+    font-size: 1.3em;
+}
+
+.letrablanca{
+    color: white;
+}
+
+.nito{
+    font-weight: bold;
+}
+
+.libre{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.open{
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.lata{
+    font-family: 'Lato', sans-serif;
+}
+
+.black{
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.bordeblanco{
+    border: 3px solid white;
+}
+
+.bordenegro{
+    border: 3px solid black;
+}
