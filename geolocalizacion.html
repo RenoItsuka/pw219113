@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Localizaci&oacute;n del Geovanni</title>
+</head>
+<body>
+    <p id="demo">
+        Obtener posici&oacute;n del mapa
+    </p>
+    <button onClick="localizacion();">
+        Aceptar
+    </button>
+    <div id="mapa">
+
+    </div>
+    <script>
+        function muestraPosicion(posicion){
+            var latlon=posicion.coords.latitude+","+posicion.coords.longitude;
+            var imagenMapa="https://maps.googleapis.com/maps/api/staticmap?center="+latlon+
+            "&zoom=14&size=400x300key=AIzaSyAtKadHnn8uAWyBRXYrLPGuTX3FY_2M3ew";
+            document.getElementById('mapa').innerHTML="<img src'"+imagenMapa+"'>";
+            document.getElementById('demo').innerHTML= latlon;
+        }
+        function muestraError(error){
+            var mensaje = "";
+            switch (error.code){
+                case error.PERMISSION_DENIED:
+                    mensaje="No se autorizo al usuario";
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    mensaje="Host de destino inaccesible";
+                    break;
+                case error.TIMEOUT:
+                    mensaje="El tiempo de espera se ha agotado";
+                    break;
+                case error.UNKNOWN_ERROR:
+                    mensaje="Error desconocido";
+                    break;
+            }   
+        }
+        function localizacion(){
+            //si el navegador lo soporta
+            if(navigator.geolocation){
+                //CALLBACK
+                navigator.geolocation.getCurrentPosition(muestraPosicion,muestraError);
+
+            }
+        }
+    </script>
+</body>
+</html>
