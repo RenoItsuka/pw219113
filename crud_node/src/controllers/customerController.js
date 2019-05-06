@@ -6,9 +6,16 @@ controller.list = (req,res) => {
             if(err){
                 res.json(err);
             }
-            console.log(customers);
+            //console.log(customers);
+            res.render('customer',{
+                data: customers
+            });
         });
     });
+}
+
+controller.save = (req,res) => {
+    
 }
 
 module.exports = controller;
