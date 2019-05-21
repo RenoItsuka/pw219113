@@ -7,6 +7,28 @@
     <title>CRUD NODEJS MySQL</title>
 </head>
 <body>
+    <form action="/add" method="post">
+        <table align="center" border>
+            <tbody>
+                <tr>
+                    <td>Nombre</td>
+                    <td><input type="text" name="name" placeholder="Nombre"></td>
+                </tr>
+                <tr>
+                    <td>Dirección</td>
+                    <td><input type="text" name="address" placeholder="Dirección"></td>
+                </tr>
+                <tr>
+                    <td>Telefóno</td>
+                    <td><input type="text" name="phone" placeholder="Telefono"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">Guarda Clientes</button></td>   
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
     <table border align="center">
         <thead>
             <tr>
@@ -14,7 +36,7 @@
                 <th>Nombre</th>
                 <th>Direccion</th>
                 <th>Telefono</th>
-                <th>Acciones</th>
+                <th colspan="2">Acciones</th>
             </tr>
         </thead>
         <tbody>
@@ -25,6 +47,12 @@
                         <td><%= data[i].name %></td>
                         <td><%= data[i].address %></td>
                         <td><%= data[i].phone %></td>
+                        <td>
+                            <a href="/delete/<%= data[i].id %>"> Borrar </a>
+                        </td>
+                        <td>
+                            <a href="/update/<%= data[i].id %>"> Actualizar </a>
+                        </td>
                     </tr>
                 <% } %>                
             <% } %>
